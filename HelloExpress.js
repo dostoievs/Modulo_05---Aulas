@@ -2,8 +2,8 @@ import express from 'express'
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Rota  Fucking Raiz!')
+app.get('/usuario', (req, res) => {
+  res.send('Rota ativada com GET!')
 })
 
 app.get('/contato', (req, res) => {
