@@ -4,4 +4,9 @@ function TarefaController (app){
             res.send('Exibindo Tarefa')
       }
 }
+      app.post ('/tarefa',inserir)
+      function inserir (req, res){
+            res.send('Inserindo Tarefa')
+      }
+
 export default TarefaController
